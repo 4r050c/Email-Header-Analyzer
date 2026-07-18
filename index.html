@@ -106,7 +106,7 @@
         <p class="field-hint">Stored only in this browser's <code>localStorage</code>. Sent only in the <code>Authorization</code> header of requests to the hosts below &mdash; never anywhere else. When a key hits its daily quota, the tool automatically retries with the next one.</p>
 
         <label class="field-label" for="proxy-input">CORS Proxy Base URL <span class="muted">(optional, advanced)</span></label>
-        <input id="proxy-input" type="text" autocomplete="off" placeholder="https://spring-dust-1694.4r0m41-soc.workers.dev" value="https://spring-dust-1694.4r0m41-soc.workers.dev">
+        <input id="proxy-input" type="text" placeholder="https://broad-unit-4b1e.4r0m41-soc.workers.dev" value="https://broad-unit-4b1e.4r0m41-soc.workers.dev">
         <p class="field-hint">MxToolbox's API does not publish CORS headers for browser use. If direct requests fail, deploy a small relay (a one-file Cloudflare Worker or similar) that forwards to <code>api.mxtoolbox.com</code> and adds <code>Access-Control-Allow-Origin</code>, then point this field at it. Leave blank to call MxToolbox directly.</p>
 
         <label class="toggle-row">
